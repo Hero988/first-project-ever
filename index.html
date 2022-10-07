@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+<body>
+  <!-- container class to put all the content inside, makes sure everything is centered, opens div 1-->
+  <div class="container d-flex justify-content-center d-flex align-items-center h-100">
+    <!-- These elements will be rows, opens div 2-->
+    <div class="row">
+      <!-- Center the text and as the grid system is 12 we decide to use all 12 grid spaces, opens header -->
+      <header class="text-center col-12">
+        <!-- Makes the text upper case and adds boldness -->
+       <h1 class="text-uppercase"><strong>Need a website?</strong></h1>
+       <!-- closing header -->
+      </header>
+      <!-- adds a buffer zone, as this is a grid system col-12 means we are covering all grids availible -->
+      <div class="buffer col-12"></div>
+      <!-- opens section, centeres the buttons text and as this is a grid system we are covering all grids availible -->
+      <section class="text-center col-12">
+        <!-- hr (that line at the top of the button) -->
+       <hr>
+       <!-- opens an a tag and ads the subscriber form url to the Find out more button -->
+       <a href="https://mailchi.mp/a1e569fe02a8/startups">
+        <!-- button and button primary and btx-x1 class open and the text of the button -->
+        <button class="btn btn-primary btn-xl">Find Out More</button>
+        <!-- closing a tag -->
+       </a>
+       <!-- closing section -->
+      </section>
+      <!-- closing div 2 (row div) -->
+    </div>
+    <!-- closing div 1 (container div) -->
+  </div>
+</body>
+</html>
+
+<!-- flex system explanation: https://getbootstrap.com/docs/5.0/utilities/flex/ -->
+<!-- grid system explanation: https://getbootstrap.com/docs/4.0/layout/grid/ -->
+<!-- h-100 means the full height of the page, explanation: https://getbootstrap.com/docs/5.0/utilities/sizing/ -->
+
